@@ -8,13 +8,12 @@
 body{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
-    background-color: black;
     color: seashell;
     
 }
 
 .container{
-    width: 95%;
+    width: 90%;
     margin:0 auto;
     
 }
@@ -117,4 +116,16 @@ nav{
 .tea figure > figcaption{
     font-weight: bold;
     font-size: 20px;
+}
+
+/* Location Section styling */
+.location{
+    margin-top: 50px;
+}
+.location-background-img{
+    background: url("../images/img-locations-background.jpg") center no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+    position: relative;
 }
