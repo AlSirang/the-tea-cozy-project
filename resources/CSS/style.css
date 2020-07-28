@@ -5,19 +5,17 @@
     opacity: 0.9;
     background-color: #000;
 }
+
 body{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
-    width: 1300px;
-
-    
+    width: 1300px;    
 }
 
 .container{
     width: 90%;
     margin:0 auto;
-    
 }
 
 
@@ -30,6 +28,7 @@ nav{
     width: 100%;
     z-index: 99;
 }
+
 .navbar-wrapper{
     display: flex;
     justify-content: space-between;
@@ -39,10 +38,10 @@ nav{
 .navbar-wrapper #logo{
     margin-left: 10px;
 }
+
 .navbar-wrapper #logo img{
     height: 50px;
 }
-
 
 .navbar-wrapper #nav-menu {
     display: flex;
@@ -50,6 +49,7 @@ nav{
     padding-top: 10px;
     padding-right: 10px;
 }
+
 .navbar-wrapper #nav-menu .nav-link{
     padding: 0 15px;
 }
@@ -58,7 +58,6 @@ nav{
     color: seashell;
     text-decoration: underline;
 }
-
 
 /* Misson section styling  */
 .mission-background-img{
@@ -80,12 +79,11 @@ nav{
     width: 1200px;
     text-align: center;
     text-transform: capitalize;
-    line-height: 2.3em;
-    
+    line-height: 2.3em;    
 }
 
-/* feature tea section styling  */
 
+/* feature tea section styling  */
 .feature-tea{
     width: 1000px;
     margin: 0 auto;
@@ -115,44 +113,50 @@ nav{
     height: 200px ;
     padding-bottom: 10px;
 }
+
 .tea figure > figcaption{
     font-weight: bold;
     font-size: 20px;
 }
 
+
 /* Location Section styling */
 .location-section{
     margin-top: 50px;
 }
+
 .location-background-img{
     background: url("../images/img-locations-background.jpg") center no-repeat;
     background-size: cover;
     height: 500px;
     position: relative;
 }
+
 .locations{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
-
 }
+
 .location-heading{
     text-align: center;
     background: transparent;
     margin-bottom: 25px;
 }
+
 .location-heading h2{
     background: inherit;
 }
+
 .addresses{
     background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .address{
     background-color: #000;
     opacity: 1;
@@ -164,12 +168,13 @@ nav{
     text-align: center;
     text-transform: capitalize;
 }
+
 .address h4{
     font-size: 18px;
 }
 
-/* footer section */
 
+/* footer section */
 .about{
     width: 100%;
     height: 200px;
