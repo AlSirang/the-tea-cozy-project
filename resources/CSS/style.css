@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     opacity: 0.9;
+    background-color: #000;
 }
 body{
     font-family: Helvetica, sans-serif;
@@ -46,6 +47,7 @@ nav{
     display: flex;
     justify-content: space-evenly;
     padding-top: 10px;
+    padding-right: 10px;
 }
 .navbar-wrapper #nav-menu .nav-link{
     padding: 0 15px;
@@ -56,8 +58,8 @@ nav{
     text-decoration: underline;
 }
 
-/* End of Navbar Styling */
 
+/* Misson section styling  */
 .mission-background-img{
     background: url("../images/img-mission-background.jpg") center no-repeat;
     background-size: cover;
@@ -80,3 +82,4 @@ nav{
     line-height: 2.3em;
     
 }
+
