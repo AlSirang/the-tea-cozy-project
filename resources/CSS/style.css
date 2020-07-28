@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    
+}
+
+.container{
+    width: 95%;
+    margin:0 auto;
+    
+}
+
+
+/* navbar styling */
+nav{
+    position: fixed;
+    height: 69px;
+    background-color: #000;
+    border-bottom: 1px solid #fff5ee;
+    width: 100%;
+    z-index: 99;
+}
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.navbar-wrapper #logo{
+    margin-left: 10px;
+}
+.navbar-wrapper #logo img{
+    height: 50px;
+}
+
+
+.navbar-wrapper #nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.navbar-wrapper #nav-menu .nav-link{
+    padding: 0 15px;
+}
+
+#nav-menu a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+/* End of Navbar Styling */
+
+.mission-background-img{
+    background: url("../images/img-mission-background.jpg") center no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission{
+    background-color: #000;
+    position: absolute;
+    width: 1200px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 2.3em;
+    
+}
