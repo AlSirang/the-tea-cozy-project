@@ -10,7 +10,7 @@ body{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
-    width: 1300px;    
+    min-width: 1350px;    
 }
 
 .container{
