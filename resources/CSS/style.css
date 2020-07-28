@@ -9,6 +9,8 @@ body{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
+    width: 1300px;
+
     
 }
 
@@ -155,7 +157,7 @@ nav{
     background-color: #000;
     opacity: 1;
     width: 300px;
-    margin: 0 40px 0;
+    margin: 10px 40px 0;
     padding: 30px;
     height: 250px;
     line-height: 2.3em;
@@ -164,4 +166,18 @@ nav{
 }
 .address h4{
     font-size: 18px;
+}
+
+/* footer section */
+
+.about{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    line-height: 2.2em;
+    text-align: center;
+}
+
+.copyright-info{
+    padding-bottom: 25px;
 }
