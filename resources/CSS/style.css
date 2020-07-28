@@ -83,3 +83,38 @@ nav{
     
 }
 
+/* feature tea section styling  */
+
+.feature-tea{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.heading{
+    line-height: 2em;
+}
+
+.tea-details{
+    width: 100%;
+    margin-top: 25px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;    
+}
+
+.tea{
+    padding: 10px;
+}
+
+.tea figure > img{
+    width: 300px ;
+    height: 200px ;
+    padding-bottom: 10px;
+}
+.tea figure > figcaption{
+    font-weight: bold;
+    font-size: 20px;
+}
